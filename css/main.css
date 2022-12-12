@@ -1,7 +1,31 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap);
 body {
   background-color: #eeeeee;
-  margin: 0;
+  width: 100%;
+  margin: 0px;
   font-family: "Poppins";
   font-weight: 400;
+  display: flex;
+}
+
+.navbar{
+  background-color: aqua;
+  width:100%;
+  display:flex;
+}
+
+#mylist{
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.listItem{
+  padding: 1em;
+}
+
+#my-left-list{
+  list-style-type: none;
+  display: flex ;
+  float:right;
 }
