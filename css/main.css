@@ -1,6 +1,14 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap);
+
+:root{
+  --title-banner-colour:#eeeeee;
+  --main-background-colour:#999999;
+  --blue-colour:#0055ff;
+  --green-colour:#08e234;
+}
+
 body {
-  background-color: #eeeeee;
+  background-color: var(--main-background-colour);
   width: 100%;
   margin: 0px;
   font-family: "Poppins";
@@ -8,24 +16,17 @@ body {
   display: flex;
 }
 
-.navbar{
-  background-color: aqua;
+.page-header-section{
   width:100%;
-  display:flex;
 }
 
-#mylist{
-    list-style-type: none;
-    display: flex;
-    
+.heading-container{
+  background-color: var(--title-banner-colour);
+  text-align:center;
+  padding:1em;
 }
 
-.listItem{
-  padding: 1em;
-}
+.main-heading{
+  text-decoration-style: none ;
 
-#my-left-list{
-  list-style-type: none;
-  display: flex ;
-  float:right;
 }
