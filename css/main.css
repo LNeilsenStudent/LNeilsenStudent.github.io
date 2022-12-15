@@ -4,8 +4,10 @@
   --title-banner-colour:#eeeeee;
   --main-background-colour:#999999;
   --blue-background-color: #82f43b;
-  --blue-colour:#0055ff;
+  --blue-colour:#00ccff;
   --green-colour:#08e234;
+
+  --main-textbox-color:#bebebe;
 }
 
 body {
@@ -35,33 +37,60 @@ body {
 }
 
 .navlist-container{
-  padding: 3em;
   background-color: var(--blue-background-color);
+  width: 10em;
   height:20em;
   border: black;
   border-radius: 5em;
+}
+
+.navlist-title{
+  font-weight: bold;
+  color: black;
+  word-wrap: break-word;
 }
 
 .navlist{
   list-style: none;
-  padding: 0%;
-  cursor: pointer;
+  padding:3em;
 }
 
 .general-list-item:hover{
-  text-decoration: underline;
+  font-weight:bolder ;
+}
+
+.general-list-item:active{
+  font-weight:bolder ;
+  color: #eeeeee;
 }
 
 .general-list-item{
   text-decoration: none;
+  line-height: 1.5em;
+  color: black;
 }
 
 .decorative-right-panel-container{
-  background-color: var(--blue-background-color);
-  height:20em;
+  background-color: var(--blue-colour);
+  width: 10em;
+  height:70em;
+  margin-top: -12em;
   border: black;
   border-radius: 5em;
+  float:right;
 }
 
+#decorative-section{
+  width: 100%;
+}
+
+.main-text-area{
+  margin-right: 12em;
+  margin-left: 12em;
+  margin-top: -14em;
+  height: 20em;
+  padding-bottom: 500em;
+  background-color: var(--main-textbox-color);
+}
 
 
