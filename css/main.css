@@ -18,15 +18,20 @@ body {
 
 .page-header-section{
   width:100%;
+  height: 100000px;
+
 }
 
 .heading-container{
+  display: flex;
   background-color: var(--title-banner-colour);
-  text-align:center;
-  padding:1em;
+  font-weight: 700;
+  height: 96px;
 }
-
 .main-heading{
-  text-decoration-style: none ;
-
+  text-decoration: none;
+  margin: auto;
 }
+
+
+
