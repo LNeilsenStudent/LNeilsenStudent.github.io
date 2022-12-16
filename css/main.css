@@ -3,11 +3,12 @@
 :root{
   --title-banner-colour:#eeeeee;
   --main-background-colour:#999999;
+  --dark-grey:rgb(163, 163, 163);
   --blue-background-color: #82f43b;
   --blue-colour:#00ccff;
   --green-colour:#08e234;
-
-  --main-textbox-color:#bebebe;
+  --writing-area-color:rgb(247, 247, 247);
+  --main-textbox-color:#474747;
 }
 
 body {
@@ -24,6 +25,7 @@ body {
   z-index: -1;
   position: absolute;
 }
+
 
 .heading-container{
   display: flex;
@@ -52,7 +54,8 @@ body {
 
 .navlist{
   list-style: none;
-  padding:3em;
+  padding-left: 3.1em;
+  padding-top: 3em;
 }
 
 .general-list-item:hover{
@@ -66,7 +69,7 @@ body {
 
 .general-list-item{
   text-decoration: none;
-  line-height: 1.5em;
+  line-height: 2em;
   color: black;
 }
 
@@ -80,6 +83,17 @@ body {
   float:right;
 }
 
+.decorative-left-panel-container{
+  background-color: var(--blue-colour);
+  width: 4em;
+  height:70em;
+  margin-top: 12em;
+  border: black;
+  border-radius: 5em;
+  margin-left: 2em;
+  z-index: -1;
+}
+
 #decorative-section{
   width: 100%;
 }
@@ -87,10 +101,36 @@ body {
 .main-text-area{
   margin-right: 12em;
   margin-left: 12em;
-  margin-top: -14em;
+  margin-top: 6em;
   height: 20em;
   padding-bottom: 500em;
   background-color: var(--main-textbox-color);
+  border: #eeeeee;
+  border-radius: 1px;
+  display: flex;
 }
+
+.inner-main-text-area{
+  background-color: var(--dark-grey);
+  width: 96%;
+  height:30em;
+  margin-left: 2%;
+  margin-top: 2%;
+  border-radius: 1em;
+  display:flex;
+}
+
+.main-text-writing-space{
+  background-color: var(--writing-area-color);
+  width: 96%;
+  margin-left: 2%; 
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 1em;
+  display: flex;
+}
+
+
+
 
 
