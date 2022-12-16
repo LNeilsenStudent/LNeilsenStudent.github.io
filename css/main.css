@@ -6,6 +6,7 @@
   --dark-grey:rgb(163, 163, 163);
   --blue-background-color: #82f43b;
   --blue-colour:#00ccff;
+  --blue-inner-colour:#79e4ff;
   --green-colour:#08e234;
   --writing-area-color:rgb(247, 247, 247);
   --main-textbox-color:#474747;
@@ -130,6 +131,31 @@ body {
   display: flex;
 }
 
+#me_with_dog{
+  width:100%;
+
+}
+
+.sidenote-container{
+  background-color: var(--blue-inner-colour);
+  border-radius: 1em;
+  width: 90%;
+  margin-left: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  
+}
+
+.sidenote-header{
+  text-align: center;  
+  text-decoration:underline;
+}
+
+.sidenote{
+  width:80%;
+  padding-left: 10%;
+  text-align:justify;
+}
 
 
 
