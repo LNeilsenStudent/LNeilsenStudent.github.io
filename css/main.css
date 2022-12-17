@@ -114,16 +114,18 @@ body {
 .inner-main-text-area{
   background-color: var(--dark-grey);
   width: 96%;
-  height:30em;
   margin-left: 2%;
   margin-top: 2%;
   border-radius: 1em;
   display:flex;
+  height: 3000%;
 }
 
 .main-text{
   padding-left: 4%;
   padding-right: 4%;
+  height:fit-content;
+  flex-wrap: wrap;
 }
 
 .main-text-writing-space{
@@ -163,6 +165,19 @@ body {
 
 .paragraph-heading{
   text-align:center;
+}
+
+.bold-text{
+  font-weight: bolder;
+}
+
+.page-body-section{
+  position: absolute;
+  pointer-events: none;
+}
+
+.regular-horizontal-line{
+  width:96%;
 }
 
 
