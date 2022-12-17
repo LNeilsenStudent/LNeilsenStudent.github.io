@@ -126,6 +126,7 @@ body {
   padding-right: 4%;
   height:fit-content;
   flex-wrap: wrap;
+  pointer-events: all;
 }
 
 .main-text-writing-space{
@@ -139,7 +140,6 @@ body {
 
 #me_with_dog{
   width:100%;
-
 }
 
 .sidenote-container{
@@ -180,6 +180,10 @@ body {
   width:96%;
 }
 
+.job-image{
+  width:90%;
+  padding-left: 5%;
+}
 
 
 
