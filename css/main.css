@@ -121,6 +121,11 @@ body {
   display:flex;
 }
 
+.main-text{
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
 .main-text-writing-space{
   background-color: var(--writing-area-color);
   width: 96%;
@@ -128,7 +133,6 @@ body {
   margin-top: 2%;
   margin-bottom: 2%;
   border-radius: 1em;
-  display: flex;
 }
 
 #me_with_dog{
@@ -155,6 +159,10 @@ body {
   width:80%;
   padding-left: 10%;
   text-align:justify;
+}
+
+.paragraph-heading{
+  text-align:center;
 }
 
 
