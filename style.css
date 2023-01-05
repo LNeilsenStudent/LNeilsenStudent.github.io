@@ -1,0 +1,97 @@
+body {
+  background-color: #336699;
+  width: 100%;
+}
+main {
+  background-color: #336699;
+  width: 100%; 
+}
+h1 {
+  color: black;
+  text-align: center;
+  font-family: 'Secular One', sans-serif;
+  font-size: 48px;
+}
+h2 {
+  color: black;
+  text-align: center;
+  font-family: 'Secular One', sans-serif;
+  font-size: 40px;
+}
+h3 {
+  color: black;
+  text-align: center;
+  font-family: 'Secular One', sans-serif;
+  font-size: 35px;
+}
+.p {
+  font-family: 'Secular One', sans-serif;
+  color: black;
+  font-size: 13px;
+  word-wrap: hard;
+}
+
+.myheader, .DocHead {
+  background-color: #99ccFF;
+  border-radius: 10px;
+  width: 100%;
+  border-color: #000033;
+  border-style: solid;
+  padding: 10px;
+  margin: 10px;
+  }
+  
+  img {
+    border: 5px solid #000033;
+    border-radius: 10px;
+    width: "5%";
+    height: "5%";
+  }
+ .image {
+    border-color: #000033;
+    background-color: #99ccFF;
+    width: 100%;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+ }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.nav {
+  border-color: #000033;
+  background-color: #99ccFF;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+}
+.navtxt {
+  font-family: Georgia;
+  border-color: #000033;
+  border-style: solid;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight:bold;
+  color: black;
+}
+a:link, a:visited {
+  background-color: #003366;
+    color: white;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: #000033;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: #990000;
+  }
