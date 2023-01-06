@@ -95,3 +95,8 @@ a:link, a:visited {
   a:hover, a:active {
     background-color: #990000;
   }
+
+  .nav-element{
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
