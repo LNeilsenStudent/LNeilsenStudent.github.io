@@ -3,12 +3,18 @@
   --dark-blue: #3b7eb0;
   --light-blue: #eaeaea;
   --my-black: #000000;
-  --highlight: #990000;
+  --highlight: #602020;
   --alt-background: #313948;
   --my-white: #ffffff;
   --my-borders: #000003;
   --intermediate-background: #c1c1c1;
+  --panel-bg:#24262d;
+  --panel-bg-lighter:#52555f;
+  --panel-bg-light:#90929b;
+
   --my-border-radius: 20px;
+
+  --hover-scale: 1.1;
 }
 
 body {
@@ -35,6 +41,12 @@ h3 {
   text-align: center;
   font-family: 'Secular One', sans-serif;
   font-size: 35px;
+}
+h5 {
+  color: var(--my-black);
+  text-align: center;
+  font-family: 'Secular One', sans-serif;
+  font-size: 15px;
 }
 .p {
   font-family: 'Secular One', sans-serif;
@@ -99,18 +111,23 @@ a:link, a:visited {
     font-family: 'Secular One', sans-serif;
   }
   
-  a:hover, a:active {
+  a:hover {
     background-color: var(--highlight);
+    transform: scale(var(--hover-scale));
+  }
+
+  a:active{
+    background-color: var(--intermediate-background);
   }
 
   .borderless-image{
     border-radius: var(--my-border-radius);
     border-style: none;
     margin-left: 0px;
-    margin-right: 0px;
-    
+    margin-right: 0px;    
     width:30%;
   }
+
 
   .flipped-horiz{
     transform: scaleX(-1);
@@ -119,4 +136,46 @@ a:link, a:visited {
   li{
     display: inline-block;
   }
+
+  .test{
+    background-color: aqua;
+    line-height: 30%;
+    padding: 12px;
+    text-decoration: none;
+    }
+
+  .personal-icon{
+    border-radius: var(--my-border-radius);
+    border-style: none;
+    padding-left:1%;
+    padding-right: 3% ;   
+    width:12%
+    }
+
+  .personal-icon:hover{
+    transform: scale(var(--hover-scale));
+  }
+
+  .personal-icon-container{
+    border-radius: var(--my-border-radius);
+    border-style: none;
+    margin-left: 0px;
+    margin-right: 0px;    
+    width:30%
+  }
+
+  .dark-bg-panel{
+    background-color: var(--panel-bg);
+  }
+
+  .mid-dark-bg-panel{
+    background-color: var(--panel-bg-lighter);
+  }
   
+  .light-bg-panel{
+    background-color: var(--panel-bg-light);
+  }
+
+  .top-space-header{
+    margin-top: 2%;;
+  }
