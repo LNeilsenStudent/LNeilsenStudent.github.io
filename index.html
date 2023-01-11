@@ -9,7 +9,9 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette">
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Secular one">          
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Secular one">    
+  <script defer src="js/modal-control.js"></script>     
+
 </head>
 
 
@@ -67,12 +69,12 @@
       <div class="myheader  mid-dark-bg-panel">
         <ul class="navtxt">
           <li>
-            <img class="personal-icon" src="images/alex.png" alt="Alex - icon">  
-            <img class="personal-icon" src="images/chirs.png" alt="Chris - icon">
-            <img class="personal-icon" src="images/ash.png" alt="Ash - icon"> 
-            <img class="personal-icon" src="images/lachie.png" alt="Lachie - icon">
-            <img class="personal-icon" src="images/glenn.png" alt="Glenn - icon">  
-            <img class="personal-icon" src="images/Ida.png" alt="Ida - icon">  
+            <img data-modal-target="#modal" class="personal-icon" src="images/alex.png" alt="Alex - icon" id="alex-icon">  
+            <img data-modal-target="#modal" class="personal-icon" src="images/chirs.png" alt="Chris - icon" id="chris-icon">
+            <img data-modal-target="#modal" class="personal-icon" src="images/ash.png" alt="Ash - icon" id="ash-icon"> 
+            <img data-modal-target="#modal" class="personal-icon" src="images/lachie.png" alt="Lachie - icon" id="lachie-icon">
+            <img data-modal-target="#modal" class="personal-icon" src="images/glenn.png" alt="Glenn - icon" id="glenn-icon">  
+            <img data-modal-target="#modal" class="personal-icon" src="images/Ida.png" alt="Ida - icon" id="ida-icon">  
           </li>
         </ul>
       </div>
@@ -102,5 +104,26 @@
       </div>
     </div>
   </main>
+
+  <div class="modal" id="modal">
+    <div class="modal-head">
+      <div class="modal-title">
+        Lorem ipsum 
+      </div>
+      <button data-close-button class="close-button">
+        &times;  
+      </button> 
+    </div>
+
+    <div class="modal-body">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore reiciendis necessitatibus, neque eaque distinctio illo! Ipsa ipsam voluptate excepturi repellendus facilis vel aperiam doloribus, fuga, eveniet rerum consequuntur dicta dolorem reiciendis assumenda earum nisi nemo dolores nam! Iusto omnis, nostrum iste laborum rerum aut voluptates, aperiam vel odit, dolorum culpa.
+    </div>
+
+  </div>
+  <div id="dark-overlay"></div>
+</body>
+
+
+
 </body>
 </html>
