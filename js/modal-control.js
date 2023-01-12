@@ -7,11 +7,26 @@ const overlay = document.getElementById('dark-overlay')
 
 
 // DATA: all data can go here. None code past these lists should be altered
-const alex_info = ["Alex Milnes", "write some stuff about alex (stdent No. personal info, etc). write some stuff about alex (stdent No. personal info, etc). write some stuff about alex (stdent No. personal info, etc). write some stuff about alex (stdent No. personal info, etc). write some stuff about alex (stdent No. personal info, etc). write some stuff about alex (stdent No. personal info, etc). write some stuff about alex (stdent No. personal info, etc). "]
+const alex_info = ["Alex Milnes", "(Student Number: S3987656, General Information: Alex was born in Sydney, Australia, is a loving husband and father of twin boys has relocated to Brazil. He has a diploma in security and risk management, worked as a security operations manager, Hobbies: Playing cricket and rugby. Reading about politics and economics, IT Interest: Alex job profile was also to liaison with the technology department to combat and deter security threats, which got him interested to know about IT and cyber security, IT Experience: Alex has experience with biometrics which he got during his work as security operations manager, Languages: English and Portuguese) "]
+
+
+
 const chris_info = ["Chris Box", "write some stuff about chris (stdent No. personal info, etc). write some stuff about chris (stdent No. personal info, etc). write some stuff about chris (stdent No. personal info, etc). write some stuff about chris (stdent No. personal info, etc). write some stuff about chris (stdent No. personal info, etc). write some stuff about chris (stdent No. personal info, etc). write some stuff about chris (stdent No. personal info, etc). "]
+
+
+
 const ash_info = ["Ash Choudhry", "write some stuff about ash (stdent No. personal info, etc). write some stuff about ash (stdent No. personal info, etc). write some stuff about ash (stdent No. personal info, etc). write some stuff about ash (stdent No. personal info, etc). write some stuff about ash (stdent No. personal info, etc). write some stuff about ash (stdent No. personal info, etc). write some stuff about ash (stdent No. personal info, etc). write some stuff about ash (stdent No. personal info, etc). "]
+
+
+
 const lachie_info = ["Lachie Neilsen", "write some stuff about lachie (stdent No. personal info, etc). write some stuff about lachie (stdent No. personal info, etc). write some stuff about lachie (stdent No. personal info, etc). write some stuff about lachie (stdent No. personal info, etc). write some stuff about lachie (stdent No. personal info, etc). write some stuff about lachie (stdent No. personal info, etc). write some stuff about lachie (stdent No. personal info, etc). "]
+
+
+
 const glenn_info = ["Glenn Norris", "write some stuff about glenn (stdent No. personal info, etc). write some stuff about glenn (stdent No. personal info, etc). write some stuff about glenn (stdent No. personal info, etc). write some stuff about glenn (stdent No. personal info, etc). write some stuff about glenn (stdent No. personal info, etc). write some stuff about glenn (stdent No. personal info, etc). write some stuff about glenn (stdent No. personal info, etc). "]
+
+
+
 const ida_info = ["Ida Gange", "write some stuff about ida (stdent No. personal info, etc). write some stuff about ida (stdent No. personal info, etc). write some stuff about ida (stdent No. personal info, etc). write some stuff about ida (stdent No. personal info, etc). write some stuff about ida (stdent No. personal info, etc). write some stuff about ida (stdent No. personal info, etc). write some stuff about ida (stdent No. personal info, etc). write some stuff about ida (stdent No. personal info, etc). "]
 //--------------------------------------------------------------------------
 
