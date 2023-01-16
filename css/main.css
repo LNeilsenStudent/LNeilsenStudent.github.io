@@ -39,15 +39,27 @@ h2 {
 }
 h3 {
   color: var(--my-black);
-  text-align: center;
+  text-align: left;
   font-family: 'Secular One', sans-serif;
   font-size: 35px;
+}
+h4 {
+  color: var(--my-black);
+  text-align: left;
+  font-family: 'Secular One', sans-serif;
+  font-size: 20px;
 }
 h5 {
   color: var(--my-black);
   text-align: center;
   font-family: 'Secular One', sans-serif;
   font-size: 15px;
+}
+h6 {color: #003366;
+  text-align: left;
+  font-family: 'Secular One', sans-serif;
+  font-size: 15px;
+  font-style: italic;
 }
 .p {
   font-family: 'Secular One', sans-serif;
@@ -65,7 +77,16 @@ h5 {
   border-style: solid;
   margin-bottom: 0.5%;
   }
-  
+.myheader2 {
+  background-color: var(--light-blue);
+  border-radius: var(--my-border-radius);
+  width: 100%;
+  border-color: var(--my-borders);
+  border-style: solid;
+  margin-bottom: 0.5%;
+  padding: 10px;
+  box-sizing: border-box;
+  }
   img {
     border: 5px solid var(--my-black);
     border-radius: var(--my-border-radius);
