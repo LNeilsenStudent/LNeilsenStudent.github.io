@@ -61,11 +61,10 @@ h6 {color: #003366;
   font-size: 15px;
   font-style: italic;
 }
-.p {
-  font-family: 'Secular One', sans-serif;
+p {
   color: var(--my-black);
+  font-family: 'Secular One', sans-serif;
   font-size: 13px;
-  word-wrap: hard;
 }
 
 
@@ -78,12 +77,6 @@ h6 {color: #003366;
   margin-bottom: 0.5%;
   }
 .myheader2 {
-  background-color: var(--light-blue);
-  border-radius: var(--my-border-radius);
-  width: 100%;
-  border-color: var(--my-borders);
-  border-style: solid;
-  margin-bottom: 0.5%;
   padding: 10px;
   box-sizing: border-box;
   }
@@ -261,4 +254,28 @@ a:link, a:visited {
   #dark-overlay.active{
     opacity: 1;
     pointer-events: all;
+  }
+
+  .full-width{
+    width: 100%;
+    display:inline-flex;
+  }
+
+  .float-right{
+    margin-left: auto;
+    margin-right: 5%;
+  }
+
+  .float-left{
+    margin-right: auto;
+    margin-left: -1%;
+  }
+
+  .regular-horizontal-line{
+    width:96%;
+    background-color: #000000;
+  }
+
+  .centre-override{
+    text-align: center;
   }
